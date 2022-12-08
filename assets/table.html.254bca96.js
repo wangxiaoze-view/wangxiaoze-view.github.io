@@ -1,1 +1,0 @@
-import{_ as e,V as t,W as _,Z as c}from"./framework.104963e2.js";const o={},s=c("p",null,"111",-1),n=[s];function a(l,r){return t(),_("div",null,n)}const f=e(o,[["render",a],["__file","table.html.vue"]]);export{f as default};
