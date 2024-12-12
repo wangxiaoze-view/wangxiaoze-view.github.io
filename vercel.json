@@ -15,6 +15,10 @@
     {
       "source": "/sim-admin/:match*",
       "destination": "https://sim-admin.vercel.app/:match*"
+    },
+    {
+      "source": "/cdn-file/:match*",
+      "destination": "https://picx-images-hosting-gamma.vercel.app/:match*"
     }
   ],
   "github": {
