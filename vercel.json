@@ -14,7 +14,7 @@
     },
     {
       "source": "/sim-admin/:match*",
-      "destination": "https://sim-admin-wangxiaozeviews-projects.vercel.app/:match*"
+      "destination": "https://sim-admin.vercel.app/:match*"
     }
   ],
   "github": {
