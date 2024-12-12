@@ -11,6 +11,10 @@
     {
       "source": "/knowledge-base/:match*",
       "destination": "https://knowledge-base-mu-orcin.vercel.app/:match*"
+    },
+    {
+      "source": "/sim-admin/:match*",
+      "destination": "https://sim-admin-wangxiaozeviews-projects.vercel.app/:match*"
     }
   ],
   "github": {
