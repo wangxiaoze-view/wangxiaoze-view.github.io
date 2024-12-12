@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/:match*/",
+      "destination": "/:match*"
+    },
+    {
+      "source": "/web-demos/:match*",
+      "destination": "https://web-demos-orcin.vercel.app/:match*"
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
