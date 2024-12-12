@@ -7,6 +7,10 @@
     {
       "source": "/web-demos/:match*",
       "destination": "https://web-demos-orcin.vercel.app/:match*"
+    },
+    {
+      "source": "/knowledge-base/:match*",
+      "destination": "https://knowledge-base-mu-orcin.vercel.app/:match*"
     }
   ],
   "github": {
