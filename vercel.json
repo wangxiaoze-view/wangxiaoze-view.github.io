@@ -19,6 +19,10 @@
     {
       "source": "/cdn-file/:match*",
       "destination": "https://picx-images-hosting-gamma.vercel.app/:match*"
+    },
+    {
+      "source": "/mock-api/:match*",
+      "destination": "https://mock-api-flame.vercel.app/:match*"
     }
   ],
   "github": {
