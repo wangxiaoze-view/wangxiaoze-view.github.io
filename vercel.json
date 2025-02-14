@@ -23,6 +23,10 @@
     {
       "source": "/mock-api/:match*",
       "destination": "https://mock-api-flame.vercel.app/:match*"
+    },
+    {
+      "source": "/remote/:match*",
+      "destination": "https://sim-admin-remote-components.vercel.app/:match*"
     }
   ],
   "github": {
