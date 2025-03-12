@@ -9,6 +9,10 @@
       "destination": "https://web-demos-orcin.vercel.app/:match*"
     },
     {
+      "source": "/blog/:match*",
+      "destination": "https://blog-three-kappa-24.vercel.app/:match*"
+    },
+    {
       "source": "/knowledge-base/:match*",
       "destination": "https://knowledge-base-mu-orcin.vercel.app/:match*"
     },
