@@ -28,11 +28,29 @@
 				dataLayer.push(arguments);
 			}
 			gtag("js", new Date());
-
 			gtag("config", "G-XMTLPR4SW4");
 		</script>
-		<script defer src="https://cloud.umami.is/script.js" data-website-id="81502827-f215-4db2-9026-fa822e3c583e"></script>
-<!-- 		<script defer src="https://cloud.umami.is/script.js" data-website-id="63e283e0-9946-4f12-a732-c0e74a121289"></script> -->
+		<script>
+			(function () {
+				const host = window.location.host;
+				const head = document.getElementsByTagName("head")[0];
+				var hm = document.createElement("script");
+				hm.defer = true;
+				hm.src = "https://cloud.umami.is/script.js";
+				if (["www.wangxiaoze.cn", "wangxiaoze.cn"].includes(host)) {
+					hm.setAttribute(
+						"data-website-id",
+						"63e283e0-9946-4f12-a732-c0e74a121289"
+					);
+				} else if (["wangxiaoze-view.github.io", "localhost"].includes(host)) {
+					hm.setAttribute(
+						"data-website-id",
+						"81502827-f215-4db2-9026-fa822e3c583e"
+					);
+				}
+				head.appendChild(hm);
+			})();
+		</script>
 	</head>
 	<body>
 		<canvas id="bgCanvas"></canvas>
@@ -50,7 +68,7 @@
 						<!-- 这里可以放置你的照片 -->
 						<div class="profile-placeholder">
 							<img
-								src="https://wangxiaoze-view.github.io/picx-images-hosting/images/WechatIMG646.2h8d1aigma.webp"
+								src="https://wangxiaoze.cn/cdn-file/images/WechatIMG646.2h8d1aigma.webp"
 								alt=""
 							/>
 						</div>
@@ -148,7 +166,7 @@
 						<a href="https://wangxiaoze-view.github.io/blog/">
 							<div class="project-image">
 								<img
-									src="https://wangxiaoze-view.github.io/picx-images-hosting/images/image.2obohkikc2.webp"
+									src="https://wangxiaoze.cn/cdn-file/images/image.2obohkikc2.webp"
 									alt=""
 								/>
 							</div>
@@ -166,7 +184,7 @@
 						<a href="https://wangxiaoze-view.github.io/knowledge-base/">
 							<div class="project-image">
 								<img
-									src="https://wangzevw.com/cdn-file/images/image.77dlzp13h8.webp"
+									src="https://wangxiaoze.cn/cdn-file/images/image.77dlzp13h8.webp"
 									alt=""
 								/>
 							</div>
@@ -185,7 +203,7 @@
 						<a href="https://wangxiaoze-view.github.io/sim-admin/#/">
 							<div class="project-image">
 								<img
-									src="https://wangxiaoze-view.github.io/picx-images-hosting/images/sim_admin.2kryz063px.webp"
+									src="https://wangxiaoze.cn/cdn-file/images/sim_admin.2kryz063px.webp"
 									alt=""
 								/>
 							</div>
@@ -204,7 +222,7 @@
 						<a href="https://wangxiaoze-view.github.io/web-demos">
 							<div class="project-image">
 								<img
-									src="https://wangzevw.com/cdn-file/images/image.4ckxtwnq52.webp"
+									src="https://wangxiaoze.cn/cdn-file/images/image.4ckxtwnq52.webp"
 									alt=""
 								/>
 							</div>
@@ -224,7 +242,7 @@
 						>
 							<div class="project-image">
 								<img
-									src="https://wangxiaoze-view.github.io/picx-images-hosting/images/image.4n7llvv3zq.webp"
+									src="https://wangxiaoze.cn/cdn-file/images/image.4n7llvv3zq.webp"
 									alt=""
 								/>
 							</div>
@@ -245,7 +263,7 @@
 						<a href="https://github.com/wangxiaoze-view/HarmonyOs-App">
 							<div class="project-image">
 								<img
-									src="https://wangxiaoze-view.github.io/picx-images-hosting/images/image.8vmywvxmg2.webp"
+									src="https://wangxiaoze.cn/cdn-file/images/image.8vmywvxmg2.webp"
 									alt=""
 								/>
 							</div>
@@ -263,7 +281,7 @@
 						<a href="https://github.com/wangxiaoze-view/functional-helpers-lib">
 							<div class="project-image">
 								<img
-									src="https://wangxiaoze-view.github.io/picx-images-hosting/images/7.2h8btdobvo.webp"
+									src="https://wangxiaoze.cn/cdn-file/images/7.2h8btdobvo.webp"
 									alt=""
 								/>
 							</div>
@@ -283,7 +301,7 @@
 						<a href="https://github.com/wangxiaoze-view/log-repeorting">
 							<div class="project-image">
 								<img
-									src="https://wangxiaoze-view.github.io/picx-images-hosting/images/7.2h8btdobvo.webp"
+									src="https://wangxiaoze.cn/cdn-file/images/7.2h8btdobvo.webp"
 									alt=""
 								/>
 							</div>
