@@ -164,7 +164,11 @@
 				<h2>项目展示</h2>
 				<div class="projects-grid">
 					<div class="project-card">
-						<a href="https://wangxiaoze-view.github.io/blog/">
+						<a
+							href="https://wangxiaoze-view.github.io/blog/"
+							class="project-link"
+							data-db="blog/"
+						>
 							<div class="project-image">
 								<img
 									src="https://wangxiaoze.cn/cdn-file/images/image.2obohkikc2.webp"
@@ -182,7 +186,11 @@
 					</div>
 
 					<div class="project-card">
-						<a href="https://wangxiaoze-view.github.io/knowledge-base/">
+						<a
+							href="https://wangxiaoze-view.github.io/knowledge-base/"
+							class="project-link"
+							data-db="knowledge-base"
+						>
 							<div class="project-image">
 								<img
 									src="https://wangxiaoze.cn/cdn-file/images/image.77dlzp13h8.webp"
@@ -201,7 +209,11 @@
 					</div>
 
 					<div class="project-card">
-						<a href="https://wangxiaoze-view.github.io/sim-admin/#/">
+						<a
+							href="https://wangxiaoze-view.github.io/sim-admin/#/"
+							class="project-link"
+							data-db="sim-admin"
+						>
 							<div class="project-image">
 								<img
 									src="https://wangxiaoze.cn/cdn-file/images/sim_admin.2kryz063px.webp"
@@ -220,7 +232,11 @@
 						</a>
 					</div>
 					<div class="project-card">
-						<a href="https://wangxiaoze-view.github.io/web-demos">
+						<a
+							href="https://wangxiaoze-view.github.io/web-demos"
+							class="project-link"
+							data-db="web-demos"
+						>
 							<div class="project-image">
 								<img
 									src="https://wangxiaoze.cn/cdn-file/images/image.4ckxtwnq52.webp"
@@ -336,6 +352,18 @@
 			</section>
 		</div>
 
+		<script>
+			const aEl = document.querySelectorAll(".project-link");
+			const host = window.location.host;
+			aEl.forEach(el => {
+				const db = el.getAttribute("data-db");
+				if (["www.wangxiaoze.cn", "wangxiaoze.cn"].includes(host)) {
+					el.setAttribute("href", `https://www.wangxiaoze.cn/${db}`);
+				} else if (["wangxiaoze-view.github.io", "localhost"].includes(host)) {
+					el.setAttribute("href", `https://wangxiaoze-view.github.io/${db}`);
+				}
+			});
+		</script>
 		<script src="script.js"></script>
 	</body>
 </html>
