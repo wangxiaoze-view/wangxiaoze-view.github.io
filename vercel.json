@@ -31,6 +31,10 @@
     {
       "source": "/remote/:match*",
       "destination": "https://sim-admin-remote-components.vercel.app/:match*"
+    },
+    {
+      "source": "/playground/:match*",
+      "destination": "https://playground-sandy-eight.vercel.app/:match*"
     }
   ],
   "github": {
